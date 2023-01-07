@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Logo from "./components/Logo/Logo";
-import "./App.css";
+
 import Users from "./components/Users/Users";
 import UserInfo from "./components/Users/User/UserInfo";
 
