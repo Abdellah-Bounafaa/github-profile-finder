@@ -1,0 +1,73 @@
+.actor-avatar img {
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid rgb(71, 238, 71);
+}
+.action {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 400px;
+  margin: 20px;
+  background-color: #a3cfcd;
+  opacity: 80%;
+  padding: 20px;
+  border-radius: 10px;
+}
+.activities {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.created_at {
+  font-size: 12px;
+  opacity: 60%;
+  color: #777;
+}
+.login {
+  font-size: 20px;
+  font-weight: bold;
+}
+.repo-inf {
+  font-size: 16px;
+  color: black;
+}
+.event {
+  color: red;
+}
+.repo-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  justify-content: center;
+}
+.header p:first-child {
+  font-size: 20px;
+}
+.repo {
+  width: 300px;
+  border-radius: 10px;
+  background-color: #a3cfcd;
+  opacity: 80%;
+  padding: 10px;
+}
+.visibility {
+  font-size: 14px;
+  color: white;
+  background-color: green;
+  text-align: center;
+  border-radius: 6px;
+  padding: 3px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header a {
+  color: black;
+  font-size: 22px;
+  text-decoration: none;
+}

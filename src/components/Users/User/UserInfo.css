@@ -1,0 +1,54 @@
+ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 40px;
+}
+ul li {
+  list-style: none;
+  font-weight: bold;
+  justify-content: flex-end;
+}
+ul li button {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  background-color: transparent;
+}
+
+.user_inforamations {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  line-height: 20px;
+  margin-bottom: 150px;
+}
+.user_inforamations img {
+  width: 200px;
+  -webkit-box-shadow: 0px 20px 0px -10px #ffffff, 0px -20px 0px -10px #ffffff,
+    20px 0px 0px -10px #ffffff, -20px 0px 0px -10px #ffffff,
+    0px 0px 0px 10px transparent, -45px -45px 15px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 20px 0px -10px #ffffff, 0px -20px 0px -10px #ffffff,
+    20px 0px 0px -10px #ffffff, -20px 0px 0px -10px #ffffff,
+    0px 0px 0px 10px transparent, -45px -45px 15px 0px rgba(0, 0, 0, 0);
+}
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+span {
+  color: green;
+  font-weight: bold;
+}
+p {
+  font-weight: bold;
+}
+.link a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
